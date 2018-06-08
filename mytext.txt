@@ -5,4 +5,26 @@
 
 Git同步GitHub仓库的数据
 代码：
-Git clone 
+Git clone https://github.com/zhipai20/test2.git //对应仓库的http或是ssh.
+
+
+
+Git上传本地代码到GitHub仓库
+1.git status  //显示Git本地修改或新添加的文件、文件夹。
+
+2. git add .   //添加所有修改或新增的文件、文件夹到Git缓存仓库
+
+3.git status   // 查看修改或新增的文件、文件夹是否已在Git缓存仓库
+
+4.git commit -m "first commit"   //将文件提交到仓库。此时本地的文件、文件夹都以提交到Git仓库
+
+5.$ git remote add origin ttps://github.com/zhipai20/test2.git  //建立Git和GitHub之间的连接
+
+6.如果出现fatal: remote origin already exists.     则：git remote rm origin  否则跳过这步。
+
+7.git push -u origin master    //将Git缓存仓库的数据同步到对应的GitHub仓库（test2）  注：-u当仓库为空时需要添加
+
+
+
+
+
