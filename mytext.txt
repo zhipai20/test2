@@ -1,0 +1,8 @@
+总结对于git同步GitHub仓库，以及Git上传本地更新文件到GitHub
+注：小白一个，根据网上的各个教程自我摸索，仅供自己学习参考。
+
+
+
+Git同步GitHub仓库的数据
+代码：
+Git clone 
